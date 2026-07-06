@@ -1,28 +1,31 @@
-SELECT *,
+CREATE VIEW bike_scoring AS
+SELECT CONCAT(INITCAP(brand), ' ', model) AS bike,
+ 	year,
+	category,
 	CASE 
 		WHEN displacement_ccm::NUMERIC > 550
-		THEN displacement_ccm||' (1)'
-		ELSE displacement_ccm||' (0)'
+		THEN '1'
+		ELSE '0'
 	END AS displacement_ccm,
 	CASE
 		WHEN engine_cylinder IN ('Twin', 'V2', 'Single cylinder')
-		THEN engine_cylinder||' (0)'
-		ELSE engine_cylinder||' (1)'
+		THEN '0'
+		ELSE '1'
 	END AS engine_cylinder,
 	CASE 
 		WHEN power_hp::NUMERIC > 75
-		THEN power_hp||' (1)'
-		ELSE power_hp||' (0)'
+		THEN '1'
+		ELSE '0'
 	END AS power_hp,
 	CASE 
 		WHEN seat_height_mm::NUMERIC > 813
-		THEN seat_height_mm||' (1)'
-		ELSE seat_height_mm||' (0)'
+		THEN '1'
+		ELSE '0'
 	END AS seat_height_mm,
 	CASE 
 		WHEN dry_weight_kg::NUMERIC > 813
-		THEN dry_weight_kg||' (1)'
-		ELSE dry_weight_kg||' (0)'
+		THEN '1'
+		ELSE '0'
 	END AS dry_weight_kg
 FROM cleaned_data
 WHERE displacement_ccm NOT LIKE 'Unknown'
