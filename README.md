@@ -13,7 +13,8 @@ Handled missing values replacing them with the text 'Unknown'.
 Feature selection narrowing down the attributes to 12 from 28:
 Handled formatting inconsistencies.
 
-EDA
+EDA:
+Key findings
 
 Recommendation system:
 Tailoring to beginners - split into 2 sections
@@ -24,12 +25,10 @@ Reliability:
 Comfort:
 250kg >= dry weight
 813mm >= seat_height
+Example SQL outputs (limited)
 
 Approach: Convert the attributes that meet the criteria above to a 0, and those that do not to 1. 
 Calculate the total score after converting each attribute by summing them. This gives scores ranging from 1-6 for motorcycles, with a lower number indicating a more beginner-freindly bike.
 
-Example output
-
-Key findings
 
 Future improvements
