@@ -1,0 +1,15 @@
+Criteria for cleaning motorcycles
+
+Post feature selection: 11
+
+brand - no trailing spaces, null values replaced with Unknown
+model - no trailing spaces, null values replaced with Unknown
+year - no trailing spaces, null values replaced with Unknown, year should be 1980 and onwards
+category - no trailing spaces, null values replaced with Unknown
+rating - null values replaced with Unknown, rounded to 1dp
+displacement_ccm - null values replaced with Unknown, rounded to 2dp
+power_hp - null values replaced with Unknown, rounded to 2dp
+engine_cylinder - no trailing spaces, null values replaced with Unknown
+fuel_capacity_lts -null values replaced with Unknown, rounded to 2dp
+dry_weight_kg - null values replaced with Unknown, rounded to 2dp
+seat_height_mm - null values replaced with Unknown, rounded to 2dp

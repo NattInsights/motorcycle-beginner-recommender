@@ -1,0 +1,33 @@
+DROP TABLE IF EXISTS motorcycles;
+
+CREATE TABLE motorcycles (
+    id                  SERIAL PRIMARY KEY,
+    brand               VARCHAR(100),
+    model               VARCHAR(150),
+    year                INT,
+    category            VARCHAR(100),
+    rating              NUMERIC,
+    displacement_ccm    NUMERIC,
+    power_hp            NUMERIC,
+    torque_nm           NUMERIC,
+    engine_cylinder     VARCHAR(100),
+    engine_stroke       VARCHAR(50),
+    gearbox             VARCHAR(50),
+    bore_mm             NUMERIC,
+    stroke_mm           NUMERIC,
+    fuel_capacity_lts   NUMERIC,
+    fuel_system         VARCHAR(100),
+    fuel_control        VARCHAR(100),
+    cooling_system      VARCHAR(50),
+    transmission_type   VARCHAR(50),
+    dry_weight_kg       NUMERIC,
+    wheelbase_mm        NUMERIC,
+    seat_height_mm      NUMERIC,
+    front_brakes        VARCHAR(100),
+    rear_brakes         VARCHAR(100),
+    front_tire          VARCHAR(100),
+    rear_tire           VARCHAR(100),
+    front_suspension    VARCHAR(150),
+    rear_suspension     VARCHAR(150),
+    color_options       VARCHAR(200)
+);
