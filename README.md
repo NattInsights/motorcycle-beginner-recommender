@@ -10,7 +10,7 @@ Overview: This project analyses the Motorcycle Specifications Dataset by Emmanue
 
 Data cleaning: The dataset used was partially curated with formatting and missing values still present.
 Handled missing values replacing them with the text 'Unknown'. 
-Feature selection narrowing down the attributes to 12 from 28:
+Feature selection narrowing down the attributes to 11 from 28:
 Handled formatting inconsistencies.
 
 EDA:
