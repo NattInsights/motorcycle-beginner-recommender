@@ -1,4 +1,4 @@
-🏍️ ## Beginner Motorcycle Recommendation System 🏍️
+## 🏍️ Beginner Motorcycle Recommendation System
 
 Analysis of the Motorcycle Specifications Dataset by Emmanuel F. Werr from Kaggle found [here](https://www.kaggle.com/datasets/emmanuelfwerr/motorcycle-technical-specifications-19702022/data). This project develops a rule-based recommendation system to identify beginner-freindly motorcycles using percieved assumptions.
 
@@ -16,10 +16,6 @@ Dashboard display ss..
 
 
 Key Insights
-
-🛠️ Techstack: <p align="left">
-  <img src="https://skillicons.dev/icons?i=postgres,python,pandas,vscode,git,github" />
-</p>
 
 Problem statement: Choosing your first bike can be difficult due to the trade-offs between specifications. First time riders may not be aware of the specifications that contribute to a reliable and comfortable ride. Having a system that can recommend which bikes may be useful for someone who is getting into riding can ease indecisiveness and narrow down options.
 
