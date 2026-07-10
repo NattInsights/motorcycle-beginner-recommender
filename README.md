@@ -8,7 +8,7 @@ Analysis of the Motorcycle Specifications Dataset by Emmanuel F. Werr from Kaggl
 </p>
 
 Interactive Power BI dashboard exploring motorcycle specifications and relationships
-[View Power BI Dashboard]()
+[View Power BI Dashboard](https://app.powerbi.com/groups/me/reports/332106d1-54c1-4303-b76a-c42e390fd356/4bb045bf94c35bf17d46?experience=power-bi)
 <img src="C:\Motorcycle_Project\images\dashboard_view.png" width="900">
 
 
@@ -19,6 +19,7 @@ Interactive Power BI dashboard exploring motorcycle specifications and relations
 - Engine size and horsepower have a moderately positive correlation, with most bikes clustered in the 0-200 range for horsepower and 0-2000 range for engine size. As the engine size increases, the horsepower typically tends to increase also.
 - The average horsepower and engine size trends over the years indicate a fluctuating pattern, showing that not only do they rise and fall together at a very close rate (positively correlated), but they seem to alternate between 50hp, 500cc range and 70-80hp, 700-800cc ranges over 2 year windows.
 - The average engine size and horsepower fall into the mid 60hp and 600cc ranges. These are moderately powerful motorcycles, showing that the dataset averages over a steady middle ground for these specifications.
+- Seat height does not differ much per category.
 
 
 ## Problem statement:
@@ -58,6 +59,14 @@ Scoring outputs with recommendations
 <img src="C:\Motorcycle_Project\images\recommendation_system_sql.png" width="900">
 
 ## Project Structure
-
+Motorcycle_Project
+│
+├───data/
+├───images/
+├───sql/
+│
+├───Criteria for cleaning motorcycles.txt
+├───Motorcycle_Analysis_Dashboard.pbix
+└───  README.md
 
 ## Future improvements
