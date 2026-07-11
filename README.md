@@ -41,7 +41,7 @@ The dataset used was partially curated with formatting and missing values still 
 - Handled missing values replacing them with the text 'Unknown'. 
 - Feature selection narrowing down attributes from 28 to 12:
 <p align="center">
-  <img src="images/motorcycle_clean_structure.png" width="350">
+  <img src="images/motorcycle_clean_structure.png" width="250">
 </p>
 
 - Handled formatting inconsistencies.
