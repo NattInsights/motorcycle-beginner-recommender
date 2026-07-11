@@ -9,7 +9,7 @@ Analysis of the Motorcycle Specifications Dataset by Emmanuel F. Werr from Kaggl
 
 Interactive Power BI dashboard exploring motorcycle specifications and relationships
 [View Power BI Dashboard](https://app.powerbi.com/groups/me/reports/332106d1-54c1-4303-b76a-c42e390fd356/4bb045bf94c35bf17d46?experience=power-bi)
-<img src="C:\Motorcycle_Project\images\dashboard_view.png" width="900">
+<img src="images/dashboard_view.png" width="900">
 
 
 
@@ -33,7 +33,7 @@ The dataset used was partially curated with formatting and missing values still 
 
 - Handled missing values replacing them with the text 'Unknown'. 
 - Feature selection narrowing down attributes from 28 to 12:
-<img src="C:\Motorcycle_Project\images\motorcycle_clean_structure.png" width="900">
+<img src="images/motorcycle_clean_structure.png" width="900">
 - Handled formatting inconsistencies.
 
 ## Tailoring to beginners
@@ -54,11 +54,12 @@ Approach:
 
 ### Example SQL outputs
 Scoring outputs with recommendations
-<img src="C:\Motorcycle_Project\images\motorcycle_clean_structure.png" width="900">
+<img src="images/motorcycle_clean_structure.png" width="900">
 
-<img src="C:\Motorcycle_Project\images\recommendation_system_sql.png" width="900">
+<img src="images/recommendation_system_sql.png" width="900">
 
 ## Project Structure
+
 Motorcycle_Project
 │
 ├───data/
