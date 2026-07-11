@@ -39,7 +39,7 @@ The dataset used was partially curated with formatting and missing values still 
 
 - Handled missing values replacing them with the text 'Unknown'. 
 - Feature selection narrowing down attributes from 28 to 12:
-<img src="images/motorcycle_clean_structure.png" width="125">
+<img src="images/motorcycle_clean_structure.png" width="250">
 
 - Handled formatting inconsistencies.
 - Filtering of year attribute to rows containing years 2010-2022, as older bikes may not be suitable for someone just starting out. 
