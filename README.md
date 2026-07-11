@@ -2,10 +2,11 @@
 
 Analysis of the Motorcycle Specifications Dataset by Emmanuel F. Werr from Kaggle found [here](https://www.kaggle.com/datasets/emmanuelfwerr/motorcycle-technical-specifications-19702022/data). This project develops a rule-based recommendation system to identify beginner-freindly motorcycles using percieved assumptions.
 
-## Techstack
+### Techstack
  <p align="left">
   <img src="https://skillicons.dev/icons?i=postgres,python,vscode,git,github" />
 </p>
+
 
 
 ## Interactive Power BI dashboard 
@@ -38,11 +39,14 @@ The dataset used was partially curated with formatting and missing values still 
 
 - Handled missing values replacing them with the text 'Unknown'. 
 - Feature selection narrowing down attributes from 28 to 12:
-<img src="images/motorcycle_clean_structure.png" width="50">
+<img src="images/motorcycle_clean_structure.png" width="125">
+
 - Handled formatting inconsistencies.
+- Filtering of year attribute to rows containing years 2010-2022, as older bikes may not be suitable for someone just starting out. 
 
 ## Tailoring to beginners
 Assumptions made after thorough research for beginner-friendly specifications.
+
 Reliability:
 - Engine Size - 500cc or less
 - Engine Cylinder - 2 cylinders or less
@@ -62,9 +66,9 @@ Scoring outputs with recommendations.
 
 <img src="images/recommendation_system_output.png" width="650">
 
-Code example
+Code example:
 
-<img src="images/recommendation_system_sql.png" width="750">
+<img src="images/recommendation_system_sql.png" width="650">
 
 ## Project Structure
 
@@ -81,3 +85,8 @@ Motorcycle_Project/
 ```
 
 ## Future improvements
+
+- Recommendation system adjustments, adding more depth by changing the scoring system to include more than just 0s and 1s. For instance make the totalling add up to 10 or more.
+- Slightly alter the beginner recommendation criteria based on further research and analysis of more datasets.
+- Develop a predictive machine learning model based on this system.
+- Utilise ratings in further works to dictate rider preferences on existing models.
