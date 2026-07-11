@@ -2,12 +2,12 @@
 
 Analysis of the Motorcycle Specifications Dataset by Emmanuel F. Werr from Kaggle found [here](https://www.kaggle.com/datasets/emmanuelfwerr/motorcycle-technical-specifications-19702022/data). This project develops a rule-based recommendation system to identify beginner-freindly motorcycles using percieved assumptions.
 
-### Techstack
+#### Techstack
  <p align="left">
   <img src="https://skillicons.dev/icons?i=postgres,python,vscode,git,github" />
 </p>
 
-
+<br>
 
 ## Interactive Power BI dashboard 
 Exploring motorcycle specifications and relationships.
@@ -18,7 +18,7 @@ Exploring motorcycle specifications and relationships.
 
 [View Power BI Dashboard](https://app.powerbi.com/groups/me/reports/332106d1-54c1-4303-b76a-c42e390fd356/4bb045bf94c35bf17d46?experience=power-bi)
 
-
+<br>
 
 ## Key Insights
 - Ducati, Honda and Triumph make the most bikes.
