@@ -14,7 +14,7 @@ Exploring motorcycle specifications and relationships.
 
 
 
-<img src="images/dashboard_view.png" width="900">
+<img src="images/dashboard_view.png" width="950">
 
 [View Power BI Dashboard](https://app.powerbi.com/groups/me/reports/332106d1-54c1-4303-b76a-c42e390fd356/4bb045bf94c35bf17d46?experience=power-bi)
 
@@ -39,7 +39,9 @@ The dataset used was partially curated with formatting and missing values still 
 
 - Handled missing values replacing them with the text 'Unknown'. 
 - Feature selection narrowing down attributes from 28 to 12:
-<img src="images/motorcycle_clean_structure.png" width="250">
+<p align="center">
+  img src="images/motorcycle_clean_structure.png" width="250">
+</p>
 
 - Handled formatting inconsistencies.
 - Filtering of year attribute to rows containing years 2010-2022, as older bikes may not be suitable for someone just starting out. 
