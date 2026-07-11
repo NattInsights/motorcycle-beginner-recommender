@@ -7,8 +7,11 @@ Analysis of the Motorcycle Specifications Dataset by Emmanuel F. Werr from Kaggl
   <img src="https://skillicons.dev/icons?i=postgres,python,vscode,git,github" />
 </p>
 
-Interactive Power BI dashboard exploring motorcycle specifications and relationships
+## Interactive Power BI dashboard 
+Exploring motorcycle specifications and relationships
+
 [View Power BI Dashboard](https://app.powerbi.com/groups/me/reports/332106d1-54c1-4303-b76a-c42e390fd356/4bb045bf94c35bf17d46?experience=power-bi)
+
 <img src="images/dashboard_view.png" width="900">
 
 
@@ -33,7 +36,7 @@ The dataset used was partially curated with formatting and missing values still 
 
 - Handled missing values replacing them with the text 'Unknown'. 
 - Feature selection narrowing down attributes from 28 to 12:
-<img src="images/motorcycle_clean_structure.png" width="900">
+<img src="images/motorcycle_clean_structure.png" width="450">
 - Handled formatting inconsistencies.
 
 ## Tailoring to beginners
@@ -54,12 +57,13 @@ Approach:
 
 ### Example SQL outputs
 Scoring outputs with recommendations
-<img src="images/motorcycle_clean_structure.png" width="900">
+<img src="images/recommendation_system_output.png" width="700">
 
-<img src="images/recommendation_system_sql.png" width="900">
+<img src="images/recommendation_system_sql.png" width="850">
 
 ## Project Structure
 
+'''text
 Motorcycle_Project
 │
 ├───data/
@@ -69,5 +73,6 @@ Motorcycle_Project
 ├───Criteria for cleaning motorcycles.txt
 ├───Motorcycle_Analysis_Dashboard.pbix
 └───  README.md
+'''
 
 ## Future improvements
