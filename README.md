@@ -1,6 +1,6 @@
 # 🏍️ Beginner Motorcycle Recommendation System
 
-Analysis of the Motorcycle Specifications Dataset by Emmanuel F. Werr from Kaggle found [here](https://www.kaggle.com/datasets/emmanuelfwerr/motorcycle-technical-specifications-19702022/data). This project develops a rule-based recommendation system to identify beginner-freindly motorcycles using percieved assumptions.
+Analysis of the Motorcycle Specifications Dataset by Emmanuel F. Werr from Kaggle found [here](https://www.kaggle.com/datasets/emmanuelfwerr/motorcycle-technical-specifications-19702022/data). This project develops a rule-based recommendation system to identify beginner-friendly motorcycles using percieved assumptions.
 
 #### Techstack
  <p align="left">
@@ -22,7 +22,7 @@ Exploring motorcycle specifications and relationships.
 <br>
 
 ## Key Insights
-- Ducati, Honda and Triumph make the most bikes.
+- Ducati, Honda and Triumph made the most bikes between 2010 and 2022.
 - Engine size and horsepower have a moderately positive correlation, with most bikes clustered in the 0-200 range for horsepower and 0-2000 range for engine size. As the engine size increases, the horsepower typically tends to increase also.
 - The average horsepower and engine size trends over the years indicate a fluctuating pattern, showing that not only do they rise and fall together at a very close rate (positively correlated), but they seem to alternate between 50hp, 500cc range and 70-80hp, 700-800cc ranges over 2 year windows.
 - The average engine size and horsepower fall into the mid 60hp and 600cc ranges. These are moderately powerful motorcycles, showing that the dataset averages over a steady middle ground for these specifications.
@@ -32,7 +32,7 @@ Exploring motorcycle specifications and relationships.
 ## Problem statement:
  - Choosing your first bike can be difficult due to the trade-offs between specifications. First time riders may not be aware of the specifications that contribute to a reliable and comfortable ride. 
  - Having a system that can recommend which bikes may be useful for someone who is getting into riding can ease indecisiveness and narrow down options.
- - Promoting a safe entry into bike riding which can be considered relatively dangerous in comparison to other road vehicles.
+ - Promoting a safe entry into bike riding which can be considered relatively dangerous in comparison to alternative on-road vehicles.
 
 
 ## Data cleaning:
@@ -54,6 +54,7 @@ Reliability:
 - Engine Size - 500cc or less
 - Engine Cylinder - 2 cylinders or less
 - Horsepower - 75 hp or less
+
 Comfort:
 - Weight - 250kg or less
 - Seat Height 813mm or less
@@ -65,7 +66,7 @@ Approach:
 3) This gives a score ranging between 0 and 4 inclusive, with a lower number indicating a better fit for beginners.
 
 ### Example SQL outputs
-Scoring outputs with recommendations.
+Scoring outputs with recommendations:
 
 <img src="images/recommendation_system_output.png" width="650">
 
@@ -83,10 +84,13 @@ Motorcycle_Project/
 ├───sql/
 │
 ├───Criteria for cleaning motorcycles.txt
+├───EDA_for_motorcycles.ipynb
 ├───Motorcycle_Analysis_Dashboard.pbix
-├───README.md
-└───
+└───README.md
 ```
+## Concluding statement
+
+This analysis provides manufacturers, dealerships and market analysts with a framework for benchmarking motorcycle specifications across brands and categories, alongside loosely recommending first-time consumers with a compiled list of relevant bikes for safe entry into riding. The interactive dashboard enables users to compare technical characteristics, identify market trends and explore relationships between key engineering variables. While the recommendations are exploratory and do not account for sales or consumer demand, they can support early-stage product evaluation and competitive analysis.
 
 ## Future improvements
 
