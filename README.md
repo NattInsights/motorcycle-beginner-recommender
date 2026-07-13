@@ -29,13 +29,13 @@ Exploring motorcycle specifications and relationships.
 - Seat height does not differ much per category.
 
 
-## Problem statement:
+## Problem statement
  - Choosing your first bike can be difficult due to the trade-offs between specifications. First time riders may not be aware of the specifications that contribute to a reliable and comfortable ride. 
  - Having a system that can recommend which bikes may be useful for someone who is getting into riding can ease indecisiveness and narrow down options.
  - Promoting a safe entry into bike riding which can be considered relatively dangerous in comparison to alternative on-road vehicles.
 
 
-## Data cleaning:
+## Data cleaning
 The dataset used was partially curated with formatting and missing values still present.
 
 - Handled missing values replacing them with the text 'Unknown'. 
